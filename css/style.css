@@ -1,0 +1,110 @@
+*, :before, :after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: calc(8px + (10 - 8) * (100vw - 320px) / (1280 -320));
+}
+
+body,
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*GLOBAL*/
+
+.content_width {
+	max-width: 1920px;
+}
+
+.content_center {
+	margin: 0 auto;
+}
+
+.d_flex {
+	display: flex;
+}
+
+.f-d_column {
+	flex-direction: column;
+}
+
+.j-c_center {
+	justify-content: center;
+}
+
+.a-i_center {
+	align-items: center;
+}
+
+.a-i_f-end {
+	align-items: flex-end;
+}
+
+.j-c_start {
+	justify-content: flex-start;
+}
+
+.j-c_space-a {
+	justify-content: space-around;
+}
+
+.j-c_space-b {
+	justify-content: space-between;
+}
+
+.b-r_no-repeat {
+	background-repeat: no-repeat;
+}
+
+.t-a_center {
+	text-align: center;
+}
+
+
+/*WAXOM*/
+
+.first_list {
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/mounth.png);
+	min-width: 1920px;
+	min-height: 1024px;
+	background-repeat: no-repeat;
+	padding-top: 30px;
+}
+
+.logo_img {
+	background-image: url(../img/logos_Waxom.png);
+	min-width: 64px;
+	min-height: 56px;
+	background-repeat: no-repeat;
+}
+
+.logo_text {
+	color: white;
+	font-size: 3.4rem;
+	line-height: 3.4rem;
+	align-items: center;
+}
+
+.header {
+	/*margin-top: 30px;*/
+}
+
+.header:first-child {
+	max-width: 25%;
+	justify-content: flex-end;
+
+}
+
+
+
+
+
+
+
+
